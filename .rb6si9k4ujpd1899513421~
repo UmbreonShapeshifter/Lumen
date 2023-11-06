@@ -1,0 +1,24 @@
+{
+  "name": "eeveebot",
+  "version": "1.0.0",
+  "description": "A bot that fetches Eeveelution art and posts it on Mastodon",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "bot",
+    "eeveelution",
+    "mastodon",
+    "fediverse",
+    "fedi",
+    "art"
+  ],
+  "author": "UmbreonShapeshifter",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "masto": "^6.4.1"
+  }
+}
